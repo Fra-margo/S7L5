@@ -1,0 +1,102 @@
+body{
+    background-color: rgba(209, 179, 226, 0.329);
+    color:rgb(107, 107, 207);
+}
+/* Header */
+header{
+    margin-bottom: 50px;
+}
+nav{
+    background-color: rgba(147, 119, 173, 0.61);
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.navbar-nav a, 
+.navbar-brand, 
+.navbar-toggler{
+    color: rgb(102, 1, 102)
+}
+
+.navbar-nav .nav-link:hover, 
+.navbar-brand:hover{
+    color: rgb(102, 1, 102);
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-brand.active{
+    color: rgb(102, 1, 102);
+    font-weight: bold;
+  }
+
+.edit-delete-buttons{
+    color: rgb(102, 1, 102);
+    display: none;
+}
+
+/* Main */
+
+input,
+.form-control{
+    background-color: #ca9bca33;
+    border-radius: 5px;
+    border: 1px solid rgb(102, 1, 102);
+    color: rgb(107, 107, 207);
+}
+
+input:focus,
+.form-control:focus{
+    color: rgb(107, 107, 207);
+    outline: none;
+    background-color: #ca9bca33;
+}
+
+.form-control{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.btn-outline-primary{
+    font-weight: bold;
+    color: rgb(107, 107, 207);
+    background-color: #ca9bca33;
+    border-color: rgb(102, 1, 102);
+}
+
+.btn-outline-primary:hover{
+  color: white;
+  background-color: rgb(102, 1, 102);
+  border-color: rgb(102, 1, 102);
+}
+
+.card{
+    background-color: rgba(239, 193, 243, 0.185);
+    color:  rgb(107, 107, 207);
+    box-shadow: 5px 5px 10px  rgba(107, 107, 207, 0.274);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 100%;
+  }
+
+.card p{
+    font-size: 1.1em;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#card{
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
